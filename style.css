@@ -1,36 +1,38 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+    background: #f4f6f8;
 }
 
 .container {
+    width: 80%;
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 40px;
     text-align: center;
-    padding-top: 100px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    color: #232f3e;
+    margin-bottom: 20px;
 }
 
 p {
     font-size: 18px;
 }
 
-.card {
-    width: 400px;
-    margin: 40px auto;
-    padding: 25px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-.card h2 {
-    color: #ff9900;
-}
-
-#status {
-    color: green;
+#message {
+    margin-top: 20px;
     font-weight: bold;
 }
